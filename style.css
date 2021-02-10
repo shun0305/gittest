@@ -74,3 +74,183 @@ header {
 .about-container_shimada p:nth-of-type(5) {
 	margin-bottom: 80px;
 }
+
+
+
+
+/* ここから下はContactのパートBy伊藤 -------------------------------------*/
+.contact_ito {
+	text-align: center;
+}
+.contact_ito h1{
+	color: #ffd61a;
+}
+
+.formContainer_ito {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"],input[type="email"]{
+  border: solid 1px #bfbfbf;
+ width: 328px;
+ height: 36px;
+
+}
+
+.textf_ito {
+	display: flex;
+	justify-content: center;
+} 
+
+.textf_ito dl {
+	width: 100%;
+}
+
+.textf_f_ito {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 24px;
+} 
+
+#username {
+	margin-left: 78px;
+}
+
+#kana {
+	margin-left: 78px;
+}
+
+.textf_f_ito dt{
+	padding-right: 120px;
+}
+
+textarea {
+	border: solid 1px #bfbfbf;
+	width: 328px;
+	height: 108px;
+
+}
+
+.motiv_ito {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	margin-bottom: 12px;
+}
+
+
+
+.motiva_ito  {
+margin-right: 170px;
+margin-left: 60px;
+
+}
+ input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"]+label::before{
+    content: "";
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    left: 0;
+    top: 50%;
+   border-radius: 26%;
+    /* 枠の色変更 お好きな色を */
+    background-color: #f0ebe5; /* 背景の色変更 お好きな色を */
+}
+input[type="checkbox"]+label{
+    display: none;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+input[type="checkbox"]:checked+label::after{
+    content: "";
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    width: 18px;
+    height: 9px;
+    margin-top: -9px;
+    top: 50%;
+    left: 3px;
+    transform: rotate(-45deg);
+    border-bottom: 3px solid;
+    border-left: 3px solid;
+    border-color:  #585753; /* チェックの色変更 お好きな色を */
+}
+
+
+.motiv_ito dd {
+	font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.texta_ito {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.texta_ito dt {
+	margin-right: 200px;
+	margin-left: 415px;
+}
+
+
+.submit_button_ito {
+	font-size: 18px;
+	height: 54px;
+	width: 298px;
+	background-color: #ffd61a;
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+}
+
+.ssubmit_ito {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.ssubmit_ito a {
+	color: white;
+}
+
+/*BOTTUN画面
+---------------------*/
+
+.gotop_img_ito {
+    margin-left: 1100px;
+  animation: spin 10s linear infinite;
+  /*Set our animation play state to paused initially */
+  animation-play-state: paused; 
+}
+
+.gotop_img_ito:hover {
+  /* Toggle our animation play state to running when we are hovering over our sticker */
+  animation-play-state: running;
+}
+
+
+/*FOOTER画面
+---------------------*/
+.footer_ito {
+	text-align: center;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	background-color: #707070;
+	font-size: 18px;
+	color: white;
+}
