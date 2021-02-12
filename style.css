@@ -301,3 +301,79 @@ input[type="checkbox"]:checked+label::after{
 	text-align: left;
 }
 
+/* ここから下は course (aririn) -------------------------------------*/
+.course_ari h1 {
+	color: #222222;
+	font-size: 24px;
+	line-height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.course_ari p {
+	display: flex;
+	justify-content: center;	
+}
+
+.kenshu_ari {
+	display: flex;
+	justify-content: center;
+}
+
+.kenshu_text_ari {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 48px;
+	padding-right: 36px;
+	background-color: whitesmoke;
+}
+
+.kenshu_text_ari h2 {
+	color: #222222;
+	font-size: 24px;
+	line-height: 100%;
+	margin-bottom: 40px;
+}
+
+.chisiki_ari {
+	display: flex;
+	justify-content: center;
+}
+
+.chisiki_text_ari {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 36px;
+	padding-right: 48px;
+	background-color: whitesmoke;
+}
+
+.chisiki_text_ari h2 {
+	color: #222222;
+	font-size: 24px;
+	line-height: 100%;
+	margin-bottom: 40px;
+}
+
+.sotsugyo_ari {
+	display: flex;
+	justify-content: center;
+}
+
+.sotsugyo_text_ari {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 48px;
+	padding-right: 36px;
+	background-color: whitesmoke;
+}
+
+.sotsugyo_text_ari h2 {
+	color: #222222;
+	font-size: 24px;
+	line-height: 100%;
+	margin-bottom: 40px;
+}
