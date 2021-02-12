@@ -254,3 +254,50 @@ input[type="checkbox"]:checked+label::after{
 	font-size: 18px;
 	color: white;
 }
+
+
+/* ここから下は news, access (Nishi) -------------------------------------*/
+.news_nishi{
+	text-align: center;
+	font-size: 16px;
+}
+.news_nishi h1 {
+    font-size: 24px;
+    color: #ffd61a;
+}
+.news_container_nishi {
+    display: flex;
+}
+.news_container_box {
+    margin: 64px 16px 16px;
+}
+.news_nishi button {
+    height: 60px;
+    width: 200px;
+    background-color: #ffd61a;
+    font-size: 21px;
+    color: white;
+    margin-bottom: 48px;
+    border-style: none;
+}
+.access_nishi {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 64px;
+    padding-bottom: 80px;
+    background-color: #fafafa;
+}
+.access_box_nishi{
+	justify-content: center;
+	display: flex;
+}
+.a_l_nishi{
+	margin-right: 48px;
+	width: 8em;
+	text-align: left;
+}
+.a_p_nishi{
+	width: 32em;
+	text-align: left;
+}
+
